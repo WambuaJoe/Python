@@ -1,11 +1,10 @@
 # Introduction to Python programming language
 
-a = 'go'
-b = 'fuck'
-c = 'yourself'
-d = 'with'
-e = 'your'
-f = 'bitch'
-g = 'ass'
+mandevu = "sick to the core"
+def theWord():
+    global mandevu
+    mandevu = "an incorrigible piece of shit"
 
-print(a, b, c, d, e, f, g)
+theWord()
+
+print("You are " + mandevu)
