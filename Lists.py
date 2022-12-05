@@ -1,11 +1,10 @@
 # introduction to lists in python and how to manipulate them
 
-x = "awesome"
-
 
 def newfunct():
-    x = "diabolical"
-    print("Python is " + x)
+    global x
+    x = "diabolical!"
+
 
 newfunct()
-print("Python is " + x)
+print("That man is fucking " + x)
