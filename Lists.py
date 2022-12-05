@@ -10,7 +10,7 @@ def newfunct():
 
 newfunct()
 print("That man is fucking " + x)
-'''
+
 
 # Python Type Cpnversion
 a, b, c = 1, 2.9, 3j
@@ -25,3 +25,8 @@ l = complex(a)
 print(j, type(j))
 print(k, type(k))
 print(l, type(l))
+'''
+
+# Python Random Module
+import random
+print(random.randrange(0, 9))
