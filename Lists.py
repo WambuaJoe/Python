@@ -25,8 +25,14 @@ l = complex(a)
 print(j, type(j))
 print(k, type(k))
 print(l, type(l))
-'''
+
 
 # Python Random Module
 import random
-print(random.randrange(0, 9))
+print(random.randrange(0, 10))
+'''
+
+a = "Hello, world!"
+print(a[:5])
+
+# strings are arrays in Python
