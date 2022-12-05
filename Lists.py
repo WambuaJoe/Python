@@ -1,11 +1,11 @@
-#introduction to lists in python and how to manipulate them
+# introduction to lists in python and how to manipulate them
 
 x = "awesome"
 
-def newFunct():
+
+def newfunct():
     x = "diabolical"
     print("Python is " + x)
 
-newFunc()
-
+newfunct()
 print("Python is " + x)
