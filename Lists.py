@@ -42,8 +42,6 @@ text = """the blood diamonds were sold after the city fell
 Never be afraid of the repercussions of your actions, you did the right thing regardless"""
 
 print("act" not in text)
-'''
-
 
 
 quantity = 4
@@ -52,3 +50,12 @@ price = 400
 order = "I'll pay {2} for {0} of those {1}"
 
 print(order.format(quantity, item, price))
+'''
+
+a = 10
+b = 8
+
+if b > a:
+    print("b is greater than a")
+else:
+    print("a is greater than b")
