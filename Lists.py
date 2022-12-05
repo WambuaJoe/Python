@@ -30,9 +30,25 @@ print(l, type(l))
 # Python Random Module
 import random
 print(random.randrange(0, 10))
-'''
+
 
 a = "Hello, world!"
 print(a[:5])
 
 # strings are arrays in Python
+
+
+text = """the blood diamonds were sold after the city fell
+Never be afraid of the repercussions of your actions, you did the right thing regardless"""
+
+print("act" not in text)
+'''
+
+
+
+quantity = 4
+item = "drum sticks"
+price = 400
+order = "I'll pay {2} for {0} of those {1}"
+
+print(order.format(quantity, item, price))
