@@ -5,3 +5,4 @@ carModel = list(("Subaru", "Volkswagen", "Toyota", "Honda", "Ford", "Nissan"))
 print(carModel)
 print(len(carModel))
 print(type(carModel))
+
