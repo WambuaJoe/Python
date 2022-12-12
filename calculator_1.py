@@ -46,3 +46,14 @@ def div(a, b):
             The return value. a / b
         """
         return (a / b)
+
+def modulo(a, b):
+        """My modulo functiona
+
+        Args:
+                a: first integer
+                b: second integer
+        Returns:
+                The return value. a % b
+        """
+        return (a % b)

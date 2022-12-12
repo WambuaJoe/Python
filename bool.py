@@ -18,11 +18,12 @@ c = 'noice'
 print(isinstance(a, int))
 print(isinstance(b, int))
 print(isinstance(c, complex))
-'''
+
 
 fruit_list = ["mango", "apple", "cherry", "passion", "orange"]
 print(len(fruit_list))
 print(type(fruit_list))
+'''
 
 car_make = list(("Subaru", "Volvo", "Honda", "Hyundai", "Volkswagen", "Toyota"))
 print(car_make)
