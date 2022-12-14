@@ -3,9 +3,7 @@
 # lists in python programming
 
 carModel = list(("Subaru", "Volkswagen", "Toyota", "Nissan", "Hyundai"))
-print(carModel)
-for i in carModel:
-    print(i)
+
 
 # 'in' keyword to check for presence of an item in the list
 '''
@@ -27,3 +25,9 @@ newCarModel = list(("Porsche", "Fiat", "Dodge", "Tesla"))
 newCarModel.clear()
 print(newCarModel)
 '''
+
+# loop through list by referring to their index number
+# range() & len() functions are used to create suitable iterables
+
+for i in carModel:                      #reference index number to print all items
+    print(i)
