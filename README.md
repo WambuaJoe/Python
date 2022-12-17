@@ -20,3 +20,4 @@
 - you can reference the index numbers using range() & len() functs to create suitable iterable(s)
 - while loop: use len() to determine list len, start at 0 and loop through list items by referencing indexes
 -           : always increase index by 1 after every iteration
+- comprehension: offers shortest syntax for looping through lists
