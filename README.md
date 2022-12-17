@@ -21,3 +21,6 @@
 - while loop: use len() to determine list len, start at 0 and loop through list items by referencing indexes
 -           : always increase index by 1 after every iteration
 - comprehension: offers shortest syntax for looping through lists
+
+#List Comprehension
+- offers shorter syntax for creating new list based on values of existing lists 
