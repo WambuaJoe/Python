@@ -13,7 +13,7 @@ elif
     print("'Hyundai' is not present in the list")
 '''
 
-#insert() function - inserts item at specified index without replacing existing value(s)
+# insert() function - inserts item at specified index without replacing existing value(s)
 '''
 carModel.insert(3, "Fiat")
 print(carModel)
@@ -29,5 +29,13 @@ print(newCarModel)
 # loop through list by referring to their index number
 # range() & len() functions are used to create suitable iterables
 
-for i in carModel:                      #reference index number to print all items
+# reference index number to print all items
+'''
+for i in carModel:
     print(i)
+'''
+
+# reference index number to create suitable and usable iterables
+
+for i in range(len(carModel)):
+    print(carModel[i])
