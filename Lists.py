@@ -36,6 +36,10 @@ for i in carModel:
 '''
 
 # reference index number to create suitable and usable iterables
-
+'''
 for i in range(len(carModel)):
     print(carModel[i])
+'''
+
+# looping through list using comprehension
+[print(a) for a in carModel]
