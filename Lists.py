@@ -53,5 +53,12 @@ print(newCarMs)
 '''
 
 # Sort List
+'''
 carModel.sort()
 print(carModel)
+'''
+
+# Copy List
+newModel = list(carModel)
+print(newModel)
+

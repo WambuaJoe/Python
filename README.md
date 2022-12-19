@@ -29,3 +29,7 @@
 # Sort List
 - sort() method that alphanumerically sorts a list in ascending order by default
 - sort(reverse = True) :keyword arg 'reverse = True' is used to sort in descending order
+
+# Copy List
+- copy() : built-in list method to make a copy of a list
+
