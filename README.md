@@ -32,4 +32,4 @@
 
 # Copy List
 - copy() : built-in list method to make a copy of a list
-
+- can also use the list() method to create a copy of a list
