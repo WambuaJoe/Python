@@ -2,4 +2,4 @@
 
 #!/usr/bin/python3
 string = "I love {} and {}"
-print(string.format("ass", "tit")
+print(string.format("ass", "tits"))
