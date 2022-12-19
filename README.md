@@ -8,19 +8,24 @@
 # Slicing strings
 - this syntax can be used to return a range of characters
 
-#String format
+# String format
 - takes passed arguments, formats them and places them in string
 - where placeholders {} are
 
-#len()
+# len()
 - built-in function that returns the length of an object
 
-#Looping through lists
+# Looping through lists
 - can use for loop
 - you can reference the index numbers using range() & len() functs to create suitable iterable(s)
 - while loop: use len() to determine list len, start at 0 and loop through list items by referencing indexes
 -           : always increase index by 1 after every iteration
 - comprehension: offers shortest syntax for looping through lists
 
-#List Comprehension
-- offers shorter syntax for creating new list based on values of existing lists 
+# List Comprehension
+- offers shorter syntax for creating new list based on values of existing lists
+-
+
+# Sort List
+- sort() method that alphanumerically sorts a list in ascending order by default
+- sort(reverse = True) :keyword arg 'reverse = True' is used to sort in descending order

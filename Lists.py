@@ -42,4 +42,16 @@ for i in range(len(carModel)):
 '''
 
 # looping through list using comprehension
+'''
 [print(a) for a in carModel]
+'''
+
+# List Comprehension
+'''
+newCarMs = [x for x in carModel if x != "Subaru"]
+print(newCarMs)
+'''
+
+# Sort List
+carModel.sort()
+print(carModel)
