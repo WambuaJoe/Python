@@ -59,6 +59,14 @@ print(carModel)
 '''
 
 # Copy List
+'''
 newModel = list(carModel)
 print(newModel)
+'''
+
+listA = ["one", "two", "three"]
+listB = [1, 2, 3]
+
+listA.extend(listB)
+print(listA)
 

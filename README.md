@@ -33,3 +33,8 @@
 # Copy List
 - copy() : built-in list method to make a copy of a list
 - can also use the list() method to create a copy of a list
+
+# Join List
+- easiest method is to use the '+' operator to join lists
+- another method is to append the items using a 'for' loop one by one
+- extend() method is used to add elements from one list to another
