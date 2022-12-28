@@ -3,7 +3,7 @@
 #!/usr/bin/python3
 
 """
-Lambda function
+Lambda() function
 - small, anonymous (throw-away) function(s) that can take any number of arguments but
   only one expression
 - syntax is
@@ -26,7 +26,7 @@ print(mathops(7))
 """
 
 """
-Map function
+Map() function
 - often used to apply a function to each element of an iterable in a concise and efficient way.
 - applies a specified function to each element of an iterable sequence
 - returns new iterator with the transformed elements
@@ -39,7 +39,7 @@ Map function
 - can be applied to more than one list, the lists don't have to be the same length
 - 
 """
-
+"""
 def newFunct(a):
     return a * 3
 numbers = [1, 2, 3, 4]
@@ -49,3 +49,9 @@ print(list(triples))
 nums = [1,2, 3, 4]
 trips = map(lambda x: x * 3, nums)
 print(list(trips))
+"""
+
+"""
+Filter() Function
+-  
+"""
