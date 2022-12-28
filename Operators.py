@@ -53,5 +53,10 @@ print(list(trips))
 
 """
 Filter() Function
--  
+- returns a sequence where items are filtered through a  function to test if the item is accepted or not
+- syntax is:
+    filter(function, iterable/sequence)
+    - function: tests if each element of the sequence is true or not
+    - iterable: sequence to be filtered
+    - return: filtered Python object(s) 
 """
