@@ -13,6 +13,7 @@ Lambda function
 - these function can be passed as arguments to a function or assigned to a variable
 - power of a lambda function is best shown when used as an anonymous function inside another function
 """
+
 """
 a = lambda x, y: x - y
 print(a(5, 7))
@@ -44,3 +45,7 @@ def newFunct(a):
 numbers = [1, 2, 3, 4]
 triples = map(newFunct, numbers)
 print(list(triples))
+
+nums = [1,2, 3, 4]
+trips = map(lambda x: x * 3, nums)
+print(list(trips))
