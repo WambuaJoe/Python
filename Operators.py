@@ -20,7 +20,7 @@ print(a(5, 7))
 
 
 def newfunc(k):
-    return lambda a: a - (a * k)
+    return lambda a: a - (a + k)
 mathops = newfunc(2)
 print(mathops(7))
 
