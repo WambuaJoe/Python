@@ -54,9 +54,25 @@ print(list(trips))
 """
 Filter() Function
 - returns a sequence where items are filtered through a  function to test if the item is accepted or not
+- includes only the items from input iterables for which the function returns 'True'
 - syntax is:
     filter(function, iterable/sequence)
     - function: tests if each element of the sequence is true or not
     - iterable: sequence to be filtered
     - return: filtered Python object(s) 
 """
+print('Legal driving age in the US of A')
+u_age = [12, 15, 22, 21, 17, 19, 18, 14]
+drive_legal = filter(lambda x: x >= 16, u_age)
+print(list(drive_legal), '\n')
+
+print('Legal drinking age in Kenya')
+k_age = [16, 11, 19, 17, 14, 18, 21, 20]
+def calcAge(x):
+    if x >= 18:
+        return True
+    else:
+        return False
+
+drink_legal = filter(calcAge, k_age)
+print(list(drink_legal))
