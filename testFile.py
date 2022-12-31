@@ -23,11 +23,19 @@ for a in funct_filter:
     print(a)
 """
 
-# fibonacci sequence
 
-for i in range(3, 20, 3):
-    print(i)
+a, b = 0, 1
+print(a)
+print(b)
 
-seq = i
-even_nos = filter(lambda x: x % 2, seq)
-print(seq)
+for i in range(6):
+    fib = a + b
+    print(fib)
+    a, b = b, fib
+
+strI = str(fib)
+print(strI)
+
+lst = list(strI)
+lst.append('2')
+print(lst)
