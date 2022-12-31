@@ -11,7 +11,8 @@ Lambda() function
     - arguments: comma separated list of arguments
     - expression: arithmetic expression using the arguments
 - these function can be passed as arguments to a function or assigned to a variable
-- power of a lambda function is best shown when used as an anonymous function inside another function
+- power of a lambda function is best shown when used as an anonymous function inside
+  another function
 """
 
 """
@@ -27,7 +28,8 @@ print(mathops(7))
 
 """
 Map() function
-- often used to apply a function to each element of an iterable in a concise and efficient way.
+- often used to apply a function to each element of an iterable in a concise and 
+  efficient way.
 - applies a specified function to each element of an iterable sequence
 - returns new iterator with the transformed elements
 - syntax:
@@ -35,7 +37,8 @@ Map() function
     - func: name of the function
     - seq: iterable sequence (list, string, tuple etc)
     - returns: new iterator with transformed elements
-- when working with more than one sequence, map function will stop when the shorter sequence has been consumed
+- when working with more than one sequence, map function will stop when the shorter
+  sequence has been consumed
 - can be applied to more than one list, the lists don't have to be the same length
 - 
 """
@@ -53,13 +56,15 @@ print(list(trips))
 
 """
 Filter() Function
-- returns a sequence where items are filtered through a  function to test if the item is accepted or not
+- returns a sequence where items are filtered through a  function to test if the item
+  is accepted or not
 - includes only the items from input iterables for which the function returns 'True'
 - syntax is:
     filter(function, iterable/sequence)
     - function: tests if each element of the sequence is true or not
     - iterable: sequence to be filtered
     - return: filtered Python object(s) 
+"""
 """
 print('Legal driving age in the US of A')
 u_age = [12, 15, 22, 21, 17, 19, 18, 14]
@@ -76,3 +81,24 @@ def calcAge(x):
 
 drink_legal = filter(calcAge, k_age)
 print(list(drink_legal))
+"""
+
+"""
+Reduce() function
+- reduces a sequence to a single value
+- applies function(s) to elements of a sequence in a cumulative manner
+- syntax is:
+    from functools import reduce
+    reduce(function, sequence)
+    - function: takes 2 arguments
+    - sequence: object that supports iteration
+    - return: single value
+    
+- Working of the reduce() function:
+    1. first 2 elements are picked and results are obtained
+    2. apply same function to previously attained result & number just succeeding the 2nd
+       element; result is again obtained and stored
+    3. process continues until all elements are exhausted
+    4. final result is returned and printed on the console
+
+"""
