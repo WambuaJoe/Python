@@ -102,3 +102,40 @@ Reduce() function
     4. final result is returned and printed on the console
 
 """
+"""
+a, b = 0, 1
+print(a)
+print(b)
+
+for i in range(6):
+    fib = a + b
+    print(fib)
+    a, b = b, fib
+"""
+
+nacci_fibo = [0, 1, 1, 2, 3, 5, 8, 13, 21, 233, 34, 55, 89, 144,]
+
+odd_nums = list(filter(lambda x: x % 2, nacci_fibo))
+print("Odd numbers filtered: ", end="")
+print(odd_nums)
+print("Length of odd numbers: ", end="")
+print(len(odd_nums))
+even_nums = list(filter(lambda x: x % 2 == 0, nacci_fibo))
+print("Even numbers filtered: ", end="")
+print(even_nums)
+print("Length of even numbers: ", end="")
+print(len(even_nums))
+
+
+from functools import reduce
+
+"""
+# output sum of the elements of the sequence
+total = reduce(lambda x, y: x + y, nacci_fibo)
+print("sum of list: ", end="")
+print(total)
+"""
+# output the largest element of the sequence
+max_element = reduce(lambda x, y: x if x > y else y, nacci_fibo)
+print("Element with largest value: ", end="")
+print(max_element)
