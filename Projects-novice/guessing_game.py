@@ -5,7 +5,7 @@ import random
 def guess(x):
     random_num = random.randint(1, x)
     guess_num = 0
-    
+
     while guess_num != random_num:
         guess_num = int(input(f'Enter number between 1 and {x}: '))
         if guess_num < random_num:
@@ -30,7 +30,6 @@ def comp_guess(x):
             high = guess - 1
         elif feedback == 'l':
             low = guess + 1
-
     print(f"Nice guess computer, {guess} is correct")
 
 comp_guess(10)
