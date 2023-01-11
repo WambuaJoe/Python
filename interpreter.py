@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 
-a = ["You're", "being", "a", "little", "bitch"]
-"""for i in range(len(a)):
-    print(i,a[i])
-"""
-for index, value in enumerate(a, start=2):
-    print(index, value)
+passwordFile = open('SecretPassFile.txt')
+secretPassW = passwordFile.read()
+print('Enter password: ')
+typedPassW = input()
+if typedPassW == secretPassW:
+    print('Welcome')
+    if typedPassW == '12345':
+        print('Only an idiot would have such a password')
+else:
+    print('Access Denied!')
