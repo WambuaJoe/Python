@@ -3,8 +3,8 @@
 name = 'Joe'
 password = 'mandevu'
 
-while name == 'Joe':
-    print('Hi, yer bitch :P')
+username = input('Enter your username: ')
+while username == 'Joe' or username == 'joe':
     usr_input = input('Enter password: ')
     if usr_input != 'mandevu':
         print('Wrong password. Try again')
@@ -13,3 +13,4 @@ while name == 'Joe':
         break
     else:
         print('Access denied')
+    
