@@ -13,4 +13,8 @@ while username == 'Joe' or username == 'joe':
         break
     else:
         print('Access denied')
+<<<<<<< HEAD:interpreter.py
     
+=======
+print('\n')
+>>>>>>> f439bde847257d7c299cc75bb38fb46f55e90374:passCheck.py
